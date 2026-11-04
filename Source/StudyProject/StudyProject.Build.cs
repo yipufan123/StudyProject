@@ -30,20 +30,10 @@ public class StudyProject : ModuleRules
 
 		PublicIncludePaths.AddRange(new string[] {
 			"StudyProject",
-			"StudyProject/Variant_Platforming",
-			"StudyProject/Variant_Platforming/Animation",
-			"StudyProject/Variant_Combat",
-			"StudyProject/Variant_Combat/AI",
-			"StudyProject/Variant_Combat/Animation",
-			"StudyProject/Variant_Combat/Gameplay",
-			"StudyProject/Variant_Combat/Interfaces",
-			"StudyProject/Variant_Combat/UI",
-			"StudyProject/Variant_SideScrolling",
-			"StudyProject/Variant_SideScrolling/AI",
-			"StudyProject/Variant_SideScrolling/Gameplay",
-			"StudyProject/Variant_SideScrolling/Interfaces",
-			"StudyProject/Variant_SideScrolling/UI"
-		});
+			"StudyProject/Public",
+            "StudyProject/Public/AbilitySystem",
+            "StudyProject/Public/Game"
+        });
 
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
